@@ -6,6 +6,7 @@ class Person:
     def printname(self):
         print(self.firstname, self.lastname)
 
+
 class Name(Person): #Child class p
     pass
 x = Name("Christian", "Cruz")
